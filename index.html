@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Это моё резюме" />
+    <meta name="keywords" content="резюме, Илья Черемшанов" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Моё резюме</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          class="avatar"
+          src="https://sun7.userapi.com/sun7-14/s/v1/if1/DEZJvyKNOArdexPWVRRpf_ETeFTeTidbQBbVjmMtt8hRtcZ7Rs3LzosZVZgHbSQdZkbtHRgu.jpg?size=2357x1706&quality=96&type=album"
+          alt="тут должен быть я"
+          width="350px"
+        />
+        <div class="text">
+          <h1>Илья Черемшанов</h1>
+
+          <p>
+            Я
+            <em>наконец-то занялся делом.</em>
+          </p>
+
+          <p>Пора начинать учить <strong>HTML и CSS</strong></p>
+
+          <h3>Список социальных сетей:</h3>
+
+          <a href="https://vk.com/oy_newman_yo" target="_blank">VK</a> |
+          <a
+            href="https://www.youtube.com/channel/UCXUyxcJ-BSJN4QW0Cg5LlhQ/channels?view=56"
+            target="_blank"
+            >YouTube</a
+          >
+        </div>
+      </div>
+
+      <div class="card hobby">
+        <h2>Мои хобби</h2>
+
+        <ol>
+          <li>Игрули кампухтерные</li>
+          <li>Игрули волейбольные</li>
+          <li>Бег</li>
+          <li>Вокал</li>
+        </ol>
+      </div>
+
+      <div class="card activity">
+        <h2>Работа</h2>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Компания</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>АФП</td>
+            <td>Грузчик</td>
+            <td>2014-2015</td>
+          </tr>
+          <tr>
+            <td>РВ</td>
+            <td>Маляр-подготовитель</td>
+            <td>2015-2020</td>
+          </tr>
+          <tr>
+            <td>АФП</td>
+            <td>Формовщик</td>
+            <td>2020-2022</td>
+          </tr>
+          <tr>
+            <td>АФП</td>
+            <td>Бригдир</td>
+            <td>2022-</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card plans">
+        <h2>Планы на будущее</h2>
+
+        <ul>
+          <li>Выучить JS</li>
+          <li>Устроиться на работу в сферу IT</li>
+          <li>Вспомнить про хобби</li>
+        </ul>
+      </div>
+
+      <form action="/" class="form">
+        <h2>Свяжитесь со мной</h2>
+
+        <div class="name-email">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя..." />
+        </div>
+        <div class="name-email">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email..." />
+        </div>
+
+        <div class="wish">
+          <label for="wish">Ваше сообщение:</label>
+
+          <textarea
+            id="wish"
+            cols="25"
+            rows="5"
+            placeholder="Введите сообщение..."
+          ></textarea>
+        </div>
+        <button class="btn">Отправить</button>
+      </form>
+    </div>
+  </body>
+</html>
