@@ -2,4 +2,4 @@
 
 ## Здесь его можно посмотреть
 
-[Наконец-то я её доделал](https://homyaksenya.github.io/my_resume/)
+[ВОТ ОНА!](https://homyaksenya.github.io/my_resume/)
